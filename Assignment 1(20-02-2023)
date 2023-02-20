@@ -1,0 +1,22 @@
+#include <stdio.h>
+main()
+{
+    int n,i=1,ele,l;
+    printf("Enter how many numbers\n");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        scanf("%d",&ele);
+        if(i==1)
+        {
+        l=ele;
+        }
+        if(ele<l)
+        {
+        l=ele;
+        }
+        i++;
+    }
+    printf("Lowest Number=%d\n",l);
+    getch();
+}
