@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+    int rev=0,n,i,rem,temp;
+    printf("ENTER A NUMBER\n");
+    scanf("%d",&n);
+    temp=n;
+    while(n>0)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    printf("%d",rev);
+    getch();
+}
