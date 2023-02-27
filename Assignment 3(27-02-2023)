@@ -1,0 +1,25 @@
+#include <stdio.h>
+main() 
+{
+    char i,j,k;
+    for(i=65;i<=71;i++)
+    {
+        for(j=65;j<=i&&i!=66;j++)
+        {
+            printf("%c",j);
+        }
+        if(j!=66)
+        printf("\n");
+    }
+    printf(".....\n");
+    printf(".....\n");
+    for(i=88;i<=90;i++)
+    {
+       for(j=65;j<=i;j++)
+        {
+         printf("%c",j);
+        }
+        printf("\n");
+    }
+    getch();
+}
